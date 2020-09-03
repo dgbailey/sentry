@@ -15,11 +15,11 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "~10.1.0",
-    "@angular/compiler-cli": "~10.1.0",
     "@angular/animations": "~10.1.0",
+    "@angular/cli": "~10.1.0",
     "@angular/common": "~10.1.0",
     "@angular/compiler": "~10.1.0",
+    "@angular/compiler-cli": "~10.1.0",
     "@angular/core": "~10.1.0",
     "@angular/forms": "~10.1.0",
     "@angular/platform-browser": "~10.1.0",
@@ -27,14 +27,13 @@
     "@angular/router": "~10.1.0",
     "@sentry/angular": "^5.22.3",
     "@sentry/tracing": "^5.22.3",
+    "express": "^4.17.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1001.0",
-   
-   
     "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
