@@ -1,0 +1,29 @@
+button{
+    
+   border:none;
+    border-radius:3px;
+    height:40px;
+    color:white;
+    background:black;
+    
+}
+button:hover{
+    cursor:pointer;
+    background: white;
+    color:black;
+    border:1px solid black;
+}
+
+#App{
+    display:flex;
+    margin:100px auto;
+    justify-content:space-around;
+    align-items:center;
+    border:2px solid gray;
+    width:400px;
+    border-radius:3px;
+    padding:5px;
+    height:50px;
+    
+    
+}
