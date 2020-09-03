@@ -1,6 +1,9 @@
 {
   "name": "sentry-exercise",
   "version": "0.0.0",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "postinstall": "ng build --output-path dist",
     "ng": "ng",
@@ -22,7 +25,7 @@
     "@angular/platform-browser": "~10.1.0",
     "@angular/platform-browser-dynamic": "~10.1.0",
     "@angular/router": "~10.1.0",
-    "@s try/angular": "^5.22.3",
+    "@sentry/angular": "^5.22.3",
     "@sentry/tracing": "^5.22.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
