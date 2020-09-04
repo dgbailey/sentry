@@ -6,6 +6,7 @@ import { environment } from 'src/environments/environment';
 
 Sentry.init({
   dsn: environment.PUBLIC_DSN,
+  release: "d93bdb89bdae0631bd41ed542f3dc67e32d860aa",
   tracesSampleRate: 1.0,
 });
 
