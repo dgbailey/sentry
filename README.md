@@ -3,6 +3,7 @@
 Please find instructions for running on a development server below.
 
 ## Important
+Run npm install.
 
 You will need to configure your project's DSN. You can find your project's DSN in the “Client Keys” section of your “Project Settings” in Sentry. You will insert this in environment.ts file under  key PUBLIC_DSN.
 
