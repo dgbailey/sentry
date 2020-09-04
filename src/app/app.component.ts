@@ -11,4 +11,5 @@ export class AppComponent {
   onClick(){
     throw(new Error("Sentry Demo Error"))
   }
+  
 }
